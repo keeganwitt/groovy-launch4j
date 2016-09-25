@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>console</headerType>
+  <outfile>../../build/grape.exe</outfile>
+  <priority>normal</priority>
+  <downloadUrl>http://www.oracle.com/technetwork/java/javase/downloads/index.html</downloadUrl>
+  <icon>../ico/groovy.ico</icon>
+  <versionInfo>
+    <companyName>The Groovy Project</companyName>
+    <copyright>©2016 The Groovy Project</copyright>
+    <productName>Groovy</productName>
+    <productVersion>2.4.7.0</productVersion>
+    <txtProductVersion>2.4.7</txtProductVersion>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>grape binary</fileDescription>
+    <internalName>grape</internalName>
+    <originalFilename>grape.exe</originalFilename>
+  </versionInfo>
+  <classPath>
+    <mainClass>org.codehaus.groovy.tools.GrapeMain</mainClass>
+    <cp>%EXEDIR%/../lib/*.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.6.0</minVersion>
+    <jdkPreference>jdkOnly</jdkPreference>
+  </jre>
+</launch4jConfig>

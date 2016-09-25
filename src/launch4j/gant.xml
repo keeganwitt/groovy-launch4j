@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>console</headerType>
+  <outfile>../../build/gant.exe</outfile>
+  <priority>normal</priority>
+  <downloadUrl>http://www.oracle.com/technetwork/java/javase/downloads/index.html</downloadUrl>
+  <icon>../ico/gant.ico</icon>
+  <versionInfo>
+    <companyName>The Groovy Project</companyName>
+    <copyright>©2016 The Groovy Project</copyright>
+    <productName>Gant</productName>
+    <productVersion>1.9.11.0</productVersion>
+    <txtProductVersion>1.9.11</txtProductVersion>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>gant binary</fileDescription>
+    <internalName>gant</internalName>
+    <originalFilename>gant.exe</originalFilename>
+  </versionInfo>
+  <classPath>
+    <mainClass>gant.Gant</mainClass>
+    <cp>%EXEDIR%/../lib/*.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.6.0</minVersion>
+    <jdkPreference>jdkOnly</jdkPreference>
+  </jre>
+</launch4jConfig>
