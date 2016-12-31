@@ -25,6 +25,6 @@
   </classPath>
   <jre>
     <minVersion>1.6.0</minVersion>
-    <jdkPreference>jdkOnly</jdkPreference>
+    <jdkPreference>preferJdk</jdkPreference>
   </jre>
 </launch4jConfig>
