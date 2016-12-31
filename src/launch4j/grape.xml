@@ -20,9 +20,10 @@
     <originalFilename>grape.exe</originalFilename>
   </versionInfo>
   <classPath>
-    <mainClass>org.codehaus.groovy.tools.GrapeMain</mainClass>
-    <cp>%EXEDIR%/../lib/*.jar</cp>
+    <mainClass>org.codehaus.groovy.tools.GroovyStarter</mainClass>
+    <cp>%EXEDIR%/../lib/*</cp>
   </classPath>
+  <cmdLine>--main org.codehaus.groovy.tools.GrapeMain</cmdLine>
   <jre>
     <minVersion>1.6.0</minVersion>
     <jdkPreference>jdkOnly</jdkPreference>

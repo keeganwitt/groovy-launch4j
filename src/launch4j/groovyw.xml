@@ -20,9 +20,10 @@
     <originalFilename>groovyw.exe</originalFilename>
   </versionInfo>
   <classPath>
-    <mainClass>groovy.ui.GroovyMain</mainClass>
-    <cp>%EXEDIR%/../lib/*.jar</cp>
+    <mainClass>org.codehaus.groovy.tools.GroovyStarter</mainClass>
+    <cp>%EXEDIR%/../lib/*</cp>
   </classPath>
+  <cmdLine>--main groovy.ui.GroovyMain</cmdLine>
   <jre>
     <minVersion>1.6.0</minVersion>
     <jdkPreference>jdkOnly</jdkPreference>
